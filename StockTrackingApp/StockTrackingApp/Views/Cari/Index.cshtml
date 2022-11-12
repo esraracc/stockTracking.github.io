@@ -1,0 +1,251 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Data Table area Start-->
+<div class="data-table-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="data-table-list">
+                    <div class="basic-tb-hd" style="display: flex;justify-content: space-between;">
+                        <h2>Cari İşlemleri</h2>
+                        <button type="button" class="btn btn-primary notika-btn-primary waves-effect" data-toggle="modal" data-target="#myModaltwo">+ Yeni Cari Kayıt</button>
+                        <div class="modal fade" id="myModaltwo" role="dialog" style="display: none;">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                    </div> 
+                                    <div class="modal-body">
+                                        <h2>Cari Kayıt Oluştur</h2>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group ic-cmp-int">
+                                                <div class="form-ic-cmp">
+                                                    <i class="notika-icon notika-support"></i>
+                                                </div>
+                                                <div class="nk-int-st">
+                                                    <input type="text" class="form-control" placeholder="Ad">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group ic-cmp-int">
+                                                <div class="form-ic-cmp">
+                                                    <i class="notika-icon notika-support"></i>
+                                                </div>
+                                                <div class="nk-int-st">
+                                                    <input type="text" class="form-control" placeholder="Soyad">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group ic-cmp-int">
+                                                <div class="form-ic-cmp">
+                                                    <i class="notika-icon notika-phone"></i>
+                                                </div>
+                                                <div class="nk-int-st">
+                                                    <input type="text" class="form-control" placeholder="Telefon">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group ic-cmp-int">
+                                                <div class="form-ic-cmp">
+                                                    <i class="notika-icon notika-mail"></i>
+                                                </div>
+                                                <div class="nk-int-st">
+                                                    <input type="text" class="form-control" placeholder="E-Posta">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-light waves-effect" data-dismiss="modal">Vazgeç</button>
+                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cari hesabını oluştur</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table id="data-table-basic" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Ad Soyad</th>
+                                    <th>Telefon</th>
+                                    <th>E-Posta</th>
+                                    <th>Bakiye</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>5</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>6</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>7</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>8</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>9</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>10</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>11</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>12</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>13</th>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>$320,800</td>
+                                    <th style="float: right;">
+                                        <button class="btn btn-lightgreen lightgreen-icon-notika waves-effect"><i class="notika-icon notika-search"></i></button>
+                                        <button class="btn btn-info info-icon-notika waves-effect"><i class="notika-icon notika-edit"></i></button>
+                                        <button class="btn btn-danger danger-icon-notika waves-effect"><i class="notika-icon notika-trash"></i></button>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Data Table area End-->

@@ -1,0 +1,151 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Data Table area Start-->
+<div class="data-table-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="data-table-list">
+                    <div class="basic-tb-hd" style="display: flex;justify-content: space-between;">
+                        <h2>Stok İşlemleri</h2>
+                        <div>
+                            <button type="button" class="btn btn-danger notika-btn-primary waves-effect" data-toggle="modal" data-target="#myModalone">- Stok Çık</button>
+                            <div class="modal fade" id="myModalone" role="dialog" style="display: none;">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">×</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2>Stok Çık</h2>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0 0 20px 0;">
+                                                Ürün Seç
+                                                <div class="nk-int-st">
+                                                    <div class="chosen-select-act fm-cmp-mg">
+                                                        <select class="chosen" data-placeholder="Bir ürün seç...">
+                                                            <option value="United States">United States</option>
+                                                            <option value="United Kingdom">United Kingdom</option>
+                                                            <option value="Afghanistan">Afghanistan</option>
+                                                            <option value="Aland Islands">Aland Islands</option>
+                                                            <option value="Albania">Albania</option>
+                                                            <option value="Algeria">Algeria</option>
+                                                            <option value="American Samoa">American Samoa</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0 0 20px 0;">
+                                                Cari Seç
+                                                <div class="nk-int-st">
+                                                    <div class="chosen-select-act fm-cmp-mg">
+                                                        <select class="chosen" data-placeholder="Bir cari seç...">
+                                                            <option value="United States">United States</option>
+                                                            <option value="United Kingdom">United Kingdom</option>
+                                                            <option value="Afghanistan">Afghanistan</option>
+                                                            <option value="Aland Islands">Aland Islands</option>
+                                                            <option value="Albania">Albania</option>
+                                                            <option value="Algeria">Algeria</option>
+                                                            <option value="American Samoa">American Samoa</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group ic-cmp-int">
+                                                    Adet
+                                                    <div class="nk-int-st">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group ic-cmp-int">
+                                                    Açıklama
+                                                    <div class="nk-int-st">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger waves-effect btn-block" data-dismiss="modal">Stok çık</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success notika-btn-primary waves-effect" data-toggle="modal" data-target="#myModaltwo">+ Stok Gir</button>
+                            <div class="modal fade" id="myModaltwo" role="dialog" style="display: none;">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">×</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2>Stok Ekle</h2>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0 0 20px 0;">
+                                                Ürün Seç
+                                                <div class="nk-int-st">
+                                                    <div class="chosen-select-act fm-cmp-mg">
+                                                        <select class="chosen" data-placeholder="Bir ürün seç...">
+                                                            <option value="United States">United States</option>
+                                                            <option value="United Kingdom">United Kingdom</option>
+                                                            <option value="Afghanistan">Afghanistan</option>
+                                                            <option value="Aland Islands">Aland Islands</option>
+                                                            <option value="Albania">Albania</option>
+                                                            <option value="Algeria">Algeria</option>
+                                                            <option value="American Samoa">American Samoa</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group ic-cmp-int">
+                                                    Adet
+                                                    <div class="nk-int-st">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group ic-cmp-int">
+                                                    Açıklama
+                                                    <div class="nk-int-st">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success waves-effect btn-block" data-dismiss="modal">Stok ekle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table id="data-table-basic" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Ürün</th>
+                                    <th>Açıklama</th>
+                                    <th>Adet</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Data Table area End-->
