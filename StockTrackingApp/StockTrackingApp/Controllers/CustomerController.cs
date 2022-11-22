@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockTrackingApp.Controllers
 {
-    public class CariController : Controller
+    public class CustomerController : Controller
     {
         public IActionResult Index()
         {

@@ -223,7 +223,6 @@ C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrack
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
-C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Cari\Index.cshtml.g.cs
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -287,3 +286,4 @@ C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrack
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\bin\Debug\net5.0\DataLayer.pdb
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\bin\Debug\net5.0\EntityLayer.pdb
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
