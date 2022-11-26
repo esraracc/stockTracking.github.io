@@ -33,8 +33,22 @@ using StockTrackingApp.Models.AccountModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\Views\_ViewImports.cshtml"
+using EntityLayer;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a8cc264ddfa9fd266d313531475ca39280e77b9", @"/Views/Stock/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"297035958af3ec51ec26dc7cfc5059d4e3ad788a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5f81bb48b8e6eaf4951dbe9b820aa289c677258c", @"/Views/_ViewImports.cshtml")]
     public class Views_Stock_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("value", "United States", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -106,7 +120,7 @@ using StockTrackingApp.Models.AccountModel;
                                         <div class=""chosen-select-act fm-cmp-mg"">
                                             <select class=""chosen"" data-placeholder=""Bir ürün seç..."">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b97572", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b98016", async() => {
                 WriteLiteral("United States");
             }
             );
@@ -122,7 +136,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b98786", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b99230", async() => {
                 WriteLiteral("United Kingdom");
             }
             );
@@ -138,7 +152,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b910001", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b910445", async() => {
                 WriteLiteral("Afghanistan");
             }
             );
@@ -154,7 +168,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b911214", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b911658", async() => {
                 WriteLiteral("Aland Islands");
             }
             );
@@ -170,7 +184,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b912429", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b912873", async() => {
                 WriteLiteral("Albania");
             }
             );
@@ -186,7 +200,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b913638", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b914082", async() => {
                 WriteLiteral("Algeria");
             }
             );
@@ -202,7 +216,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b914847", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b915291", async() => {
                 WriteLiteral("American Samoa");
             }
             );
@@ -228,7 +242,7 @@ using StockTrackingApp.Models.AccountModel;
                                         <div class=""chosen-select-act fm-cmp-mg"">
                                             <select class=""chosen"" data-placeholder=""Bir cari seç..."">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b916670", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b917114", async() => {
                 WriteLiteral("United States");
             }
             );
@@ -244,7 +258,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b917885", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b918329", async() => {
                 WriteLiteral("United Kingdom");
             }
             );
@@ -260,7 +274,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b919101", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b919545", async() => {
                 WriteLiteral("Afghanistan");
             }
             );
@@ -276,7 +290,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b920314", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b920758", async() => {
                 WriteLiteral("Aland Islands");
             }
             );
@@ -292,7 +306,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b921529", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b921973", async() => {
                 WriteLiteral("Albania");
             }
             );
@@ -308,7 +322,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b922738", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b923182", async() => {
                 WriteLiteral("Algeria");
             }
             );
@@ -324,7 +338,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b923947", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b924391", async() => {
                 WriteLiteral("American Samoa");
             }
             );
@@ -383,7 +397,7 @@ using StockTrackingApp.Models.AccountModel;
                                         <div class=""chosen-select-act fm-cmp-mg"">
                                             <select class=""chosen"" data-placeholder=""Bir ürün seç..."">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b927722", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b928166", async() => {
                 WriteLiteral("United States");
             }
             );
@@ -399,7 +413,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b928937", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b929381", async() => {
                 WriteLiteral("United Kingdom");
             }
             );
@@ -415,7 +429,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b930153", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b930597", async() => {
                 WriteLiteral("Afghanistan");
             }
             );
@@ -431,7 +445,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b931366", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b931810", async() => {
                 WriteLiteral("Aland Islands");
             }
             );
@@ -447,7 +461,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b932581", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b933025", async() => {
                 WriteLiteral("Albania");
             }
             );
@@ -463,7 +477,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b933790", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b934234", async() => {
                 WriteLiteral("Algeria");
             }
             );
@@ -479,7 +493,7 @@ using StockTrackingApp.Models.AccountModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b934999", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a8cc264ddfa9fd266d313531475ca39280e77b935443", async() => {
                 WriteLiteral("American Samoa");
             }
             );

@@ -1,0 +1,36 @@
+﻿
+
+<div class="col-md-3">
+    <div class="card card-primary card-outline" style="border-top: 3px solid #007bff;">
+        <div class="text-right">
+            <a href="/Profile/Profile" class="btn btn-sm btn-warning btn-icon-text" title="Profilimi Güncelle">
+                <i class="typcn typcn-edit btn-icon-prepend mr-0 text-white"></i>
+            </a>
+        </div>
+        <div class="card-body box-profile">
+            <div class="text-center">
+                <img class="profile-user-img img-fluid img-circle" style="max-width:30%;" src="~/userTemplate/user.png" alt="User profile picture" />
+            </div>
+        </div>
+    </div>
+
+    <div class="card card-primary mt-2">
+        <div class="card-header" style="background-color: #007bff;">
+            <h3 class="card-title mb-0">Hakkımda</h3>
+        </div>
+        <div class="card-body">
+
+            <strong><i class="fas fa-user-tie"></i> Kullanıcı Adı</strong>
+            <p class="text-muted">@Model.User.UserName</p>
+            <hr>
+            <strong><i class="fas fa-user-alt mr-1"></i> Yetkili</strong>
+            <p class="text-muted">@Model.User.FirstName @Model.User.LastName</p>
+            <hr>
+            <strong><i class="fas fa-phone"></i> Telefon</strong>
+            <p class="text-muted">@Model.User.PhoneNumber</p>
+            <hr>
+            <strong><i class="fas fa-envelope "></i> E-Posta</strong>
+            <p class="text-muted">@Model.User.Email</p>
+        </div>
+    </div>
+</div>

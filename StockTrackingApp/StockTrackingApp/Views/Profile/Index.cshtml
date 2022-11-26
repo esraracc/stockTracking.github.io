@@ -1,0 +1,112 @@
+﻿@model UserDetailsModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title float-left">
+                Profilim
+            </h4>
+            <p class="card-description float-right">
+
+            </p>
+            <div class="clearfix"></div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Shared/Partial View/Profile/_profilePV.cshtml")
+                <div class="col-md-9">
+
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title float-left">
+                                    Kullanıcılar
+                                </h4>
+                                <p class="card-description float-right">
+                                    <a href="/profile/register" class="btn btn-sm btn-primary">
+                                        + Yeni Admin Ekle
+                                    </a>
+                                </p>
+                                <div class="clearfix"></div>
+
+                                @if (Model.Users.Where(x => x.UserName != Model.User.UserName).Count() > 0)
+                                {
+
+                                    <div class="table-responsive pt-3">
+                                        <table class="table table-bordered" id="myTable">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Yetkili</th>
+                                                    <th scope="col">Kullanıcı Adı</th>
+                                                    <th scope="col">Telefon</th>
+                                                    <th scope="col">E-Posta</th>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">#</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model.Users.Where(x => x.UserName != Model.User.UserName))
+                                                {
+                                                    <tr>
+                                                        <td>
+                                                            @item.FirstName @item.LastName
+                                                        </td>
+                                                        <td>@item.UserName</td>
+                                                        <td>@item.PhoneNumber</td>
+                                                        <td>@item.Email</td>
+                                                        <td>
+                                                            <a href="/Profile/UpdateUser/@(item.Id)" class="btn btn-warning btn-sm fas fa-edit text-white"></a>
+                                                        </td>
+                                                        <td>
+                                                            <form asp-controller="Profile" asp-action="DeleteUser" method="post" class="d-inline">
+                                                                <input type="hidden" name="userId" value="@item.Id">
+                                                                <button type="submit" class="btn bg-danger btn-sm fas fa-trash text-white"></button>
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                }
+
+
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    <h3 class="p-4 bg-warning text-white">Hiç Admin kullanıcısı yok.</h3>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Css{
+    <link href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+}
+
+@section Scripts{
+    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script>
+
+        $(function () {
+            $('#myTable').DataTable({
+                "language": {
+                    "url": "https://cdn.datatables.net/plug-ins/1.12.1/i18n/tr.json"
+                }
+            });
+        });
+    </script>
+
+}

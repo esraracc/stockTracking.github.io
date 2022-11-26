@@ -290,3 +290,8 @@ C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrack
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\ref\StockTrackingApp.dll
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\StockTrackingApp.pdb
 C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\StockTrackingApp.genruntimeconfig.cache
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Profile\Profile.cshtml.g.cs
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Profile\Register.cshtml.g.cs
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Profile\UpdateUser.cshtml.g.cs
+C:\Users\PC\Documents\GitHub\stockTracking.github.io\StockTrackingApp\StockTrackingApp\obj\Debug\net5.0\Razor\Views\Shared\Partial View\Profile\_profilePV.cshtml.g.cs

@@ -9,6 +9,6 @@ namespace StockTrackingApp.Models.AccountModel
     {
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Returnurl { get; set; }
+        public string ReturnUrl { get; set; }
     }
 }

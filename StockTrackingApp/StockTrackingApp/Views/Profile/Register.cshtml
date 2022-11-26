@@ -1,0 +1,76 @@
+﻿@model UserDetailsModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title float-left">
+                Profilim
+            </h4>
+            <div class="clearfix"></div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Shared/Partial View/Profile/_profilePV.cshtml")
+                <div class="col-md-9">
+
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title float-left">
+                                    Kullanıcılar
+                                </h4>
+                                <div class="clearfix"></div>
+                                <p class="card-description float-right">
+                                    <form asp-controller="Profile" asp-action="Register" method="post" enctype="multipart/form-data">
+                                        <div class="text-danger" asp-validation-summary="All"></div>
+                                        <div class="form-group">
+                                            <label>
+                                                Adı
+                                            </label>
+                                            <input type="text" asp-for="FirstName" class="form-control" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Soyadı
+                                            </label>
+                                            <input type="text" asp-for="LastName" class="form-control" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                E-Posta
+                                            </label>
+                                            <input type="email" asp-for="Email" class="form-control" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Telefon Numarası
+                                            </label>
+                                            <input type="text" asp-for="PhoneNumber" class="form-control" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Şifre
+                                            </label>
+                                            <input type="password" asp-for="Password" class="form-control" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Şifre Tekrar
+                                            </label>
+                                            <input type="password" asp-for="RePassword" class="form-control" required />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-success">Admin Ekle</button>
+                                        </div>
+                                    </form>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

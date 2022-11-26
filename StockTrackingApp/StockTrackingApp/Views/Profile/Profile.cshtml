@@ -1,0 +1,84 @@
+﻿@model UserDetailsModel
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title float-left">
+                Profilim
+            </h4>
+            <p class="card-description float-right">
+
+            </p>
+            <div class="clearfix"></div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Shared/Partial View/_profilePV.cshtml")
+                <div class="col-md-9">
+
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title float-left">
+                                    Kullanıcıyı Güncelle
+                                </h4>
+                                <div class="clearfix"></div>
+                                <form asp-controller="Profile" asp-action="Profile" method="post">
+                                    <div asp-validation-summary="All" class="text-danger"></div>
+                                    <input type="hidden" asp-for="User.Id" />
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label"> Kullanıcı Adı</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="User.UserName" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label"> Adı</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="User.FirstName" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label"> Soyadı</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="User.LastName" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label"> E-Posta</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="User.Email" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">Telefon Numarası</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="User.PhoneNumber" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">Şifre</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="Password" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">Şifre Tekrar</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" asp-for="RePassword" required />
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-secondary">Güncelle</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

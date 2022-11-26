@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EntityLayer;
 using StockTrackingApp.Models;
+using StockTrackingApp.Models.AccountModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace StockTrackingApp.AutoMappers
         public Mapping()
         {
             CreateMap<Product, ProductModel>().ReverseMap();
+            CreateMap<User, UserDetailsModel>().ReverseMap();
         }
 
     }
