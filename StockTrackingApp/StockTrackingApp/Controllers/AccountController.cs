@@ -25,5 +25,17 @@ namespace StockTrackingApp.Controllers
         {
             return View();
         }
+        
+        [HttpGet]
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

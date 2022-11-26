@@ -4,89 +4,90 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-<!-- Data Table area Start-->
-<div class="data-table-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="data-table-list">
-                    <div class="basic-tb-hd" style="display: flex;justify-content: space-between;">
-                        <h2>Ürün İşlemleri</h2>
-                        <button type="button" class="btn btn-primary notika-btn-primary waves-effect" data-toggle="modal" data-target="#myModaltwo">+ Yeni Ürün Ekle</button>
-                        <div class="modal fade" id="myModaltwo" role="dialog" style="display: none;">
-                            <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">×</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h2>Yeni Ürün Ekle</h2>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="form-group ic-cmp-int">
-                                                Ürün adı
-                                                <div class="nk-int-st">
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="form-group ic-cmp-int">
-                                                Geliş Fiyatı
-                                                <div class="nk-int-st">
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="form-group ic-cmp-int">
-                                                Satış Fiyatı
-                                                <div class="nk-int-st">
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="form-group ic-cmp-int">
-                                                Açıklama
-                                                <div class="nk-int-st">
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
+<div class="row  mt-3">
+    <div class="col-xl-12 d-flex grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <h4 class="card-title mb-3">Toplam Cari</h4>
+                    <p class="mb-3 float-right">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModaltwo">+ Yeni Ürün Ekle</button>
+                    </p>
+                </div>
+                <div class="modal fade" id="myModaltwo" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            <div class="modal-body">
+                                <h2>Yeni Ürün Ekle</h2>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        Ürün adı
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-light waves-effect" data-dismiss="modal">Vazgeç</button>
-                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Ürünü ekle</button>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        Geliş Fiyatı
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        Satış Fiyatı
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        Açıklama
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light waves-effect" data-dismiss="modal">Vazgeç</button>
+                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Ürünü ekle</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="table-responsive">
-                        <table id="data-table-basic" class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Ürün Adı</th>
-                                    <th>Açıklama</th>
-                                    <th>Ürün Maliyet</th>
-                                    <th>Ürün Satış</th>
-                                    <th>Toplam Adet</th>
-                                    <th>Maliyet Fiyatı</th>
-                                    <th>Satış Fiyatı</th>
-                                    <th>Beklenen Kar</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                              
-                            </tbody>
-                        </table>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Ürün Adı</th>
+                                        <th>Açıklama</th>
+                                        <th>Ürün Maliyet</th>
+                                        <th>Ürün Satış</th>
+                                        <th>Toplam Adet</th>
+                                        <th>Maliyet Fiyatı</th>
+                                        <th>Satış Fiyatı</th>
+                                        <th>Beklenen Kar</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Data Table area End-->
