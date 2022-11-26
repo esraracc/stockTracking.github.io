@@ -9,6 +9,9 @@ namespace DataLayer.Abstract
     public interface IUnitOfWork : IDisposable
     {
         ICustomerRepository Customers { get; }
+        IProductRepository Products { get; }
+        IStockRepository Stocks { get; }
+        ISaleRepository Sales { get; }
         void Save();
     }
 }

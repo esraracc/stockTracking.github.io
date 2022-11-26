@@ -11,8 +11,9 @@ namespace DataLayer.Concrete.EfCore.Identity
 {
     public class ApplicationContext : IdentityDbContext<User>
     {
-        public ApplicationContext(DbContextOptions options) : base(options)
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
         }
+
     }
 }

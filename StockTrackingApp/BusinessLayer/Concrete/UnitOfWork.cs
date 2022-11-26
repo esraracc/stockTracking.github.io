@@ -16,9 +16,15 @@ namespace BusinessLayer.Concrete
         }
 
         private CustomerManager _customerManager;
+        private ProductManager _productManager;
+        private StockManager _stockManager;
+        private SaleManager _saleManager;
 
 
         public ICustomerService Customers => _customerManager ??= new CustomerManager(unitOfWork);
+        public IProductService Products => _productManager ??= new ProductManager(unitOfWork);
+        public IStockService Stocks => _stockManager ??= new StockManager(unitOfWork);
+        public ISaleService Sales => _saleManager ??= new SaleManager(unitOfWork);
 
     }
 }

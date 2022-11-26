@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntityLayer
 {
-    public class Customer
+    public class Customer : Base
     {
-        public int CustomerId { get; set; }
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Phone { get; set; }
     }
 }
